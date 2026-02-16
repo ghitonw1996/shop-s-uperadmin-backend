@@ -11,7 +11,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origin_regex=r"https?://(.*\.malawna\.com|malawna\.com|shop-superadmin-frontend.vercel.app)",
+    allow_origin_regex=r"https?://(.*\.malawwei\.com|malawwei\.com|shop-superadmin-frontend.vercel.app)",
     
     allow_credentials=True, # สำคัญมาก! ต้องเป็น True ถึงจะส่ง Token/Cookie ข้ามโดเมนได้
     allow_methods=["*"],
